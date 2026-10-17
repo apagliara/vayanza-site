@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Vayanza</title>
+<meta name="description" content="Help with Vayanza: contact us, manage your plan, download or delete your data, and report a place or a problem.">
+<meta name="theme-color" content="#123B42">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F7F3EA; --surface: #FFFDF7; --text: #122327; --muted: #56676A;
+    --accent: #123B42; --accent-soft: #E3EFEC; --warm: #B64C3B; --warm-soft: #F6E3DC; --line: #E6DFD0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #081D21; --surface: #0E2A2F; --text: #F2EFE7; --muted: #A7B7B4;
+      --accent: #92C2BA; --accent-soft: #123B42; --warm: #F08A74; --warm-soft: #3A2320; --line: #1D3C41;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 Inter, system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  nav { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 22px; color: var(--text); text-decoration: none; }
+  .brand svg.mark { width: 50px; height: 40px; }
+  .mark-deep { fill: #123B42; } .mark-sea { fill: #76A9A1; } .mark-sun { fill: #B64C3B; } .mark-sea-lines { stroke: #D8C6A5; }
+  @media (prefers-color-scheme: dark) { .mark-deep { fill: #E8DDD0; } .mark-sea { fill: #92C2BA; } .mark-sun { fill: #D66B57; } }
+  nav a.contact { font-weight: 500; font-size: 15px; text-decoration: none; padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px; color: var(--text); }
+  h1 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: clamp(36px, 6vw, 52px); line-height: 1.05; letter-spacing: -.02em; margin: 24px 0 8px; }
+  .updated { color: var(--muted); margin: 0 0 28px; }
+  .summary { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px 24px; margin: 0 0 36px; }
+  .summary h2 { margin-top: 0; }
+  .summary ul { margin: 0; padding-left: 20px; }
+  h2 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 26px; line-height: 1.2; margin: 40px 0 10px; }
+  h3 { font-size: 18px; margin: 24px 0 6px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 20px; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  .placeholder { background: var(--warm-soft); color: var(--warm); font-weight: 600; padding: 1px 6px; border-radius: 6px; }
+  footer { border-top: 1px solid var(--line); margin-top: 56px; padding: 28px 0 40px; color: var(--muted); font-size: 14px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/" aria-label="Vayanza home">
+      <svg class="mark" viewBox="120 220 784 620" aria-hidden="true">
+        <path class="mark-deep" d="M136 246C260 240 390 365 466 562C520 700 520 800 520 826C470 810 380 740 337 562C280 390 220 270 136 246Z"/>
+        <path class="mark-sea" d="M888 246C780 230 730 400 685 562C640 700 580 830 512 826C455 825 480 740 514 673C540 580 600 400 665 340C740 280 820 235 888 246Z"/>
+        <path class="mark-sun" d="M430 310a82 82 0 0 1 164 0v36H430Z"/>
+        <path class="mark-sea-lines" fill="none" stroke-linecap="round" stroke-width="18" d="M438 386h148M458 430h108M478 474h68"/>
+      </svg>
+      Vayanza
+    </a>
+    <a class="contact" href="mailto:hello@vayanza.app">Contact</a>
+  </nav>
+  <main>
+<h1>Support</h1>
+<p class="updated">We read every message. Email <a href="mailto:hello@vayanza.app">hello@vayanza.app</a> and tell us your app version, which is in Account settings › About.</p>
+
+<h2>Your plan and purchases</h2>
+<ul>
+  <li><strong>Manage or cancel a subscription:</strong> in the app, Account settings › Your plan › Manage subscription, or Settings › your name › Subscriptions. You keep access until the end of the period you've paid for.</li>
+  <li><strong>Restore purchases on a new device:</strong> Account settings › Your plan › Restore purchases.</li>
+  <li><strong>Refunds</strong> are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+</ul>
+
+<h2>Your data</h2>
+<ul>
+  <li><strong>See what's stored where, and download a copy:</strong> Account settings › What's stored where › Download your data.</li>
+  <li><strong>Delete a holiday:</strong> tap your holiday's name at the top of the screen, choose ··· › Archive holiday, then in Archived holidays choose ··· › Delete permanently.</li>
+  <li><strong>Delete your account:</strong> Account settings › Delete account. Cancel any subscription first, as deleting your account doesn't cancel it.</li>
+  <li><strong>Photos, location and notifications:</strong> Vayanza asks for each only when you first use what needs it. Your photos and videos never leave your device. Change access in Settings › Vayanza.</li>
+</ul>
+<p>How we handle your information is in our <a href="/privacy">privacy policy</a>.</p>
+
+<h2 id="report">Report a place or a problem</h2>
+<p>If a suggestion is wrong, closed, unsuitable for families or unsafe, or something in the app doesn't work, email <a href="mailto:hello@vayanza.app?subject=Report">hello@vayanza.app</a> with:</p>
+<ul>
+  <li>the place's name and the holiday's destination, or what you were doing in the app;</li>
+  <li>what's wrong;</li>
+  <li>a screenshot, if you can.</li>
+</ul>
+
+<h2 id="venues">For venues and photographers</h2>
+<p>Vayanza shows a place's photo straight from its own website (the image the site publishes for link previews) or from Wikimedia Commons, credited and never stored. If you own a photo or a place and would like it removed or corrected, email <a href="mailto:hello@vayanza.app?subject=Photo%20or%20place">hello@vayanza.app</a> with the place's name and the page or photo, and we'll act on it.</p>
+  </main>
+  <footer>
+    <span>© 2026 Vayanza</span>
+    <span><a href="/privacy">Privacy policy</a> · <a href="/terms">Terms of Use</a> · <a href="/support">Support</a> · <a href="mailto:hello@vayanza.app">hello@vayanza.app</a></span>
+  </footer>
+</div>
+</body>
+</html>
